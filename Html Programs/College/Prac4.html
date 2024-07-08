@@ -1,0 +1,37 @@
+<!-- Feedback form in html -->
+<html>
+    <head>
+        <title>Contact Us</title>
+    </head>
+    <body>
+        <h1>Contact Us</h1>
+        <hr>
+        <form action="#" method="post">
+            <label>First Name:</label>
+            <input type="text" name="fname"placeholder="Enter your first name" required>
+            <br>
+            <br>
+            <label>Last Name:</label>
+            <input type="text" name="lname"placeholder="Enter your last name" required>
+            <br>
+            <br>
+            <label>Email:</label>
+            <input type="Email" name="Email"placeholder="Enter your email" required>
+            <br>
+            <label>Mobile no:</label>
+            <input type="tel" name="mobile" placeholder="Enter mobile number" required pattern="[0-9]{10}" title="Enter valid mobile number">
+            <br>
+            <br>
+            <label>Subject:</label>
+            <input type="text" name="subject"required size="25">
+            <br>
+            <br>
+            <label>Message:</label>
+            <textarea name="Message" cols="40" rows="10"></textarea>
+            <br>
+            <br>
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+        </form>
+    </body>
+</html>

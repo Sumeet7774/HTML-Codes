@@ -1,0 +1,15 @@
+<books>
+	<book>
+		<bname> C Language </bname>
+		<price> 100 </price>
+		<author> Renish </author>
+	</book>
+	
+	
+	<book>
+		<bname> ADBMS </bname>
+		<price> 150 </price>
+		<author> Jimit </author>
+	</book>
+
+</books>		
